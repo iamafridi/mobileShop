@@ -15,18 +15,18 @@
   </head>
   <body>
     <header>
-        <h2 class="text-6xl font-bold text-gray-400 text-center  "><span class="shadow p-5 border rounded-lg mb-5">Apple Phone</span></h2>
+        <h2 class="text-6xl font-bold text-gray-400 text-center mt-5 "><span class="p-5 mb-5">Apple Phone</span></h2>
     </header>
 
     <main  class="container mx-auto mt-10">
-<section>
+<section class="border rounded-xl bg-neutral-100 text-center">
     <input id="search-field" type="text" placeholder="Search here" class="input input-bordered w-full max-w-xs" />
-    <button onclick="handleSearch()" class="btn btn-active btn-accent">Search</button>
+    <button onclick="handleSearch()" class="btn btn-active btn-error">Search</button>
 </section>
 
 
 <!-- Search result Section  -->
-        <section class="bg-neutral-100 p-4 m-4">
+        <section class="bg-neutral-100 rounded-xl p-4 m-4">
         <!-- loading spinner -->
         <div class="text-center my-40">
             <span id="loading-spinner" class="loading loading-spinner text-info"></span>
